@@ -1,2 +1,2 @@
 # Hi, this is my personal website :)
-URL: fuj1x.github.io
+URL: https://fuj1x.github.io
