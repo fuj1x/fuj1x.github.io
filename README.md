@@ -1,2 +1,2 @@
-# Hi, this is my personal website :)
+# Resume website
 URL: https://fuj1x.github.io

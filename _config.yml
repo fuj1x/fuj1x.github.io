@@ -1,2 +1,18 @@
-theme: jekyll-theme-hacker
-title: Miao's homepage
+title: Ng Miao Xuan
+description: Software Engineer
+site_title: '@fuj1x - Ng Miao Xuan'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+email: fuj1x@hotmail.com
+discord_id: 599266612737998869
+discord_username: fuji#0326
+github_username: fuj1x
+reddit_username: allysonfuji
+twitter_username: fuj1x1
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg

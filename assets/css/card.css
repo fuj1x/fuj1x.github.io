@@ -1,0 +1,136 @@
+.wrapper {
+	max-width: 400px;
+	/* margin: 50px auto; */
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/**
+ * Helpers
+ */
+.border-tlr-radius { 
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px; 
+}
+
+.text-center { text-align: center; }
+
+.radius { border-radius: 2px; }
+
+.padding-tb { padding-top: 1.6rem; padding-bottom: 1.6rem;}
+
+.shadowDepth0 { box-shadow: 0 1px 3px rgba(0,0,0, 0.12); }
+
+.shadowDepth1 {
+   box-shadow: 
+  		0 1px 3px rgba(0,0,0, 0.12),
+    	0 1px 2px rgba(0,0,0, 0.24);      
+}
+
+
+/**
+ * Card Styles
+ */
+
+.card {
+	background-color: #fff;
+	margin-bottom: 1.6rem;
+	box-shadow: -4px 8px 16px 0 rgba(0, 0, 0, 0.24);
+	height: calc(100% - 1.6rem);
+}
+
+.card__padding {
+    padding: 1.6rem;
+    padding-top: 0.8rem;
+}
+ 
+.card__image {
+	min-height: 100px;
+    background-color: #eee;
+    width: 100%;
+    max-height: 180px;
+	overflow: hidden;
+	border-bottom: solid 1px lightgray;
+}
+
+.card__content {
+	position: relative;
+}
+
+/* card meta */
+.card__meta time {
+	font-size: 1rem;
+	color: #bbb;
+    margin-left: 0.8rem;
+    float: right;
+}
+
+/* card article */
+.card__article a {
+	text-decoration: none;
+	color: #444;
+	transition: all 0.5s ease;
+}
+
+.card__article a:hover {
+	color: #2980b9;
+}
+
+/* project section */
+#project-image {
+	transition: all .5s;
+}
+
+#project-image:focus,
+#project-image:hover {
+	transform: scale(1.1);
+}
+
+/* achievement section */
+.scrollmenu {
+    width: 100%;
+    height: fit-content;
+
+    /**used to scroll text*/
+    white-space: nowrap;    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /**keep scrolling when
+      *finger or cursor scrolling*/
+    -webkit-overflow-scrolling: touch; 
+}
+
+::-webkit-scrollbar{
+	height: 6px;
+	width: 6px;
+	background: gray;
+}
+::-webkit-scrollbar-thumb{
+	background: #000;
+	border-radius: 10px;
+}
+
+.horizontal-card {
+    width: 200px;
+    height: 250px;
+    float: none;
+    display: inline-block;
+	overflow: hidden;
+	border: 2px solid black;
+    border-radius: 10px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.horizontal-card-image {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.horizontal-text {
+	white-space: initial;
+	text-align: center;
+}
