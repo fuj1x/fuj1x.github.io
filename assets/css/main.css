@@ -324,26 +324,6 @@ img {
   float: right;
 }
 
-.blog-item {
-  padding: 10px;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-}
-
-.blog-title {
-  font-size: 17.6px;
-  font-size: 1.1rem;
-  color: inherit;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-}
-
-.more-blogs {
-  font-size: 16px;
-  font-size: 1rem;
-  margin: 15px 0 20px;
-}
-
 .slightly-smaller-text {
   font-size: 14.4px;
   font-size: 0.9rem;
@@ -354,16 +334,33 @@ img {
 }
 
 .experience-section-title {
-  font-size: 22.4px;
-  font-size: 1.8rem;
   font-weight: bold;
   padding-bottom: 10px;
   color:#333e50;
 }
 
 .experience-title {
-  font-size: 22.4px;
-  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.experience-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience-date {
+  color:#a7a7a7;
+}
+
+.experience-location {
+  color:#a7a7a7;
   font-weight: bold;
 }
 
@@ -388,33 +385,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
-}
-
-.experience-details {
-  font-size: 20.8px;
-  font-size: 1.3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.experience-date {
-  font-size: 17.6px;
-  font-size: 1.1rem;
-  color:#a7a7a7;
-}
-
-.experience-location {
-  font-size: 20.8px;
-  font-size: 1.3rem;
-  color:#a7a7a7;
-  font-weight: bold;
 }
 
 #nav {
@@ -471,7 +441,6 @@ a {
 
 /* Here follow all the media queries */
 @media screen and (max-width: 850px) {
-
   .section {
     padding-left: 15px;
     padding-right: 15px;
@@ -490,7 +459,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-
+  .paragraph-text{
+    font-size:16px;
+  }
   .head-menu-wrap {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
