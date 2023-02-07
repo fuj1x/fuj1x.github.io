@@ -217,6 +217,11 @@ img {
   color: #fff;
 }
 
+
+.section-wrapper:nth-child(3){
+  background-color: #dedede;
+}
+
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
   font-size: 20.8px;
